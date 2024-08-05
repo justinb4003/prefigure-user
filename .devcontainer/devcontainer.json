@@ -1,5 +1,5 @@
 {
-    "name": "PreFigure",
+    "name": "PreFigure User Runtime",
     "dockerFile": "Dockerfile",
-    "postCreateCommand": "pip3 install --break-system-packages -e /workspaces/prefigure && npm install --prefix=/workspaces/prefigure/js"
+    "postCreateCommand": "pip3 install --break-system-packages git+https://github.com/justinb4003/prefigure && npm install --prefix=/workspaces/prefigure/js"
 }

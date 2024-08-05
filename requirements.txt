@@ -1,5 +1,0 @@
-lxml==5.2.2
-networkx==3.1
-pycairo==1.26.0
-scipy==1.10.1
-numpy
